@@ -1,0 +1,24 @@
+ src/App.tsx                              |  36 [32m+++[m
+ src/components/CertificationsSection.tsx |  53 [32m+++++[m
+ src/components/ContactSection.tsx        | 116 [32m++++++++++[m
+ src/components/DomainsSection.tsx        |  55 [32m+++++[m
+ src/components/EducationSection.tsx      |  58 [32m+++++[m
+ src/components/ExperiencesSection.tsx    | 101 [32m+++++++++[m
+ src/components/Footer.tsx                |  28 [32m+++[m
+ src/components/LanguageSelector.tsx      |  56 [32m+++++[m
+ src/components/LanguagesSection.tsx      |  70 [32m++++++[m
+ src/components/Navbar.tsx                |  88 [32m++++++++[m
+ src/components/ProfileSection.tsx        |  59 [32m+++++[m
+ src/components/ProjectsSection.tsx       | 124 [32m+++++++++++[m
+ src/components/SkillsSection.tsx         |  58 [32m+++++[m
+ src/i18n/LanguageProvider.tsx            |  38 [32m++++[m
+ src/i18n/ar.ts                           | 361 [32m++++++++++++++++++++++++++++++[m
+ src/i18n/context.ts                      |  32 [32m+++[m
+ src/i18n/de.ts                           | 361 [32m++++++++++++++++++++++++++++++[m
+ src/i18n/en.ts                           | 361 [32m++++++++++++++++++++++++++++++[m
+ src/i18n/fr.ts                           | 362 [32m+++++++++++++++++++++++++++++++[m
+ src/i18n/types.ts                        | 158 [32m++++++++++++++[m
+ src/index.css                            | 126 [32m+++++++++++[m
+ src/main.tsx                             |  10 [32m+[m
+ src/vite-env.d.ts                        |   1 [32m+[m
+ 23 files changed, 2712 insertions(+)
