@@ -1,4 +1,3 @@
-import { User } from 'lucide-react';
 import type { Translations } from './types';
 
 export const fr: Translations = {
@@ -35,6 +34,7 @@ export const fr: Translations = {
     placeholder: 'Emplacement réservé à une photographie professionnelle.',
     profileLabel: 'Profil professionnel',
     format: 'Format portrait 4:5',
+    download: 'Télécharger la photo',
   },
 
   domains: {
@@ -352,6 +352,12 @@ export const fr: Translations = {
     messageLabel: 'Message',
     messagePlaceholder: 'Votre message',
     submitButton: 'Envoyer',
+    submittingButton: 'Envoi en cours...',
+    successTitle: 'Message envoyé avec succès',
+    successMessage: 'Merci pour votre message. Je vous répondrai dans les plus brefs délais directement sur votre boîte e-mail.',
+    errorMessage: "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer ultérieurement.",
+    rateLimitMessage: 'Veuillez patienter quelques instants avant de renvoyer un message.',
+    resetButton: 'Envoyer un autre message',
   },
 
   footer: {

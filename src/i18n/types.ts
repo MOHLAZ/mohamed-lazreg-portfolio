@@ -85,6 +85,7 @@ export interface PhotoStrings {
   placeholder: string;
   profileLabel: string;
   format: string;
+  download: string;
 }
 
 export interface Translations {
@@ -149,6 +150,12 @@ export interface Translations {
     messageLabel: string;
     messagePlaceholder: string;
     submitButton: string;
+    submittingButton: string;
+    successTitle: string;
+    successMessage: string;
+    errorMessage: string;
+    rateLimitMessage: string;
+    resetButton: string;
   };
   footer: {
     name: string;

@@ -34,6 +34,7 @@ export const en: Translations = {
     placeholder: 'Reserved space for a professional photograph.',
     profileLabel: 'Professional profile',
     format: 'Portrait format 4:5',
+    download: 'Download photo',
   },
 
   domains: {
@@ -351,6 +352,12 @@ export const en: Translations = {
     messageLabel: 'Message',
     messagePlaceholder: 'Your message',
     submitButton: 'Send',
+    submittingButton: 'Sending...',
+    successTitle: 'Message sent successfully',
+    successMessage: 'Thank you for your message. I will get back to you directly via email as soon as possible.',
+    errorMessage: 'An error occurred while sending your message. Please try again later.',
+    rateLimitMessage: 'Please wait a few moments before sending another message.',
+    resetButton: 'Send another message',
   },
 
   footer: {

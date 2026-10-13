@@ -34,6 +34,7 @@ export const ar: Translations = {
     placeholder: 'مكان محجوز لصورة فوتوغرافية مهنية.',
     profileLabel: 'الملف المهني',
     format: 'صيغة صورة شخصية 4:5',
+    download: 'تحميل الصورة',
   },
 
   domains: {
@@ -351,6 +352,12 @@ export const ar: Translations = {
     messageLabel: 'الرسالة',
     messagePlaceholder: 'رسالتك',
     submitButton: 'إرسال',
+    submittingButton: 'جاري الإرسال...',
+    successTitle: 'تم إرسال الرسالة بنجاح',
+    successMessage: 'شكراً لتواصلك. سأرد عليك مباشرة عبر بريدك الإلكتروني في أقرب وقت ممكن.',
+    errorMessage: 'حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى لاحقاً.',
+    rateLimitMessage: 'يرجى الانتظار بضع لحظات قبل إرسال رسالة أخرى.',
+    resetButton: 'إرسال رسالة أخرى',
   },
 
   footer: {
