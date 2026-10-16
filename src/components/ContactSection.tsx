@@ -66,6 +66,7 @@ export default function ContactSection() {
     }
 
     if (!isSupabaseConfigured || !supabase) {
+      console.error('[ContactForm] Supabase is not configured');
       setErrorMessage(t.contact.errorMessage);
       return;
     }
@@ -83,17 +84,21 @@ export default function ContactSection() {
       });
 
       if (error) {
+        console.error('[ContactForm] Supabase function invocation error:', error.message || error);
         throw error;
       }
 
       if (data && data.success === false) {
+        console.error('[ContactForm] Server returned failure:', data.error);
         throw new Error(data.error || 'Submission failed');
       }
 
       localStorage.setItem('last_contact_ts', now.toString());
       setIsSuccess(true);
       setFormData(INITIAL_FORM);
-    } catch {
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error('[ContactForm] Submission failed:', msg);
       setErrorMessage(t.contact.errorMessage);
     } finally {
       setIsSubmitting(false);
