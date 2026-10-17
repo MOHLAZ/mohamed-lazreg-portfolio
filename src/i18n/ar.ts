@@ -234,7 +234,7 @@ export const ar: Translations = {
     sectionTitle: 'التكوين',
     items: [
       {
-        title: "ماجستر في ريادة وإدارة الأعمال",
+        title: "ماجستير في ريادة وإدارة الأعمال",
         institution: 'IHEC: المعهد العالي للدراسات التجارية',
         institutionLabel: 'المؤسسة',
         location: 'سوسة، تونس',

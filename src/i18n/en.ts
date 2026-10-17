@@ -244,7 +244,7 @@ export const en: Translations = {
         description: "A program focused on management, requirements analysis, business administration, and project structuring.",
       },
       {
-        title: "Bachelor in Ethics, and Political Philosophy",
+        title: "Bachelor in Ethics and Political Philosophy",
         institution: 'ISSHT: Institut Supérieur de Sciences Humaines',
         institutionLabel: 'Institution',
         location: 'Tunis, Tunisia',
