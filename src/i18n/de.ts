@@ -234,7 +234,7 @@ export const de: Translations = {
     sectionTitle: 'Ausbildung',
     items: [
       {
-        title: "Master im Unternehmertum",
+        title: "Master im Unternehmertum und Betriebswirtschaftslehre",
         institution: 'IHEC: Institut de Hautes Etudes Commerciales',
         institutionLabel: 'Einrichtung',
         location: 'Sousse, Tunesien',
@@ -244,12 +244,12 @@ export const de: Translations = {
         description: "Ein Studium mit Schwerpunkt auf Management, Anforderungsanalyse, Unternehmensführung und Projektstrukturierung.",
       },
       {
-        title: "Philosophie, Ethik und politische Philosophie",
+        title: "Bachelor im Ethik und politische Philosophie",
         institution: 'ISSHT: Institut Supérieur de Sciences Humaines',
         institutionLabel: 'Einrichtung',
         location: 'Tunis, Tunesien',
         locationLabel: 'Ort',
-        period: '2010–2013',
+        period: 'September 2010–Juli 2013',
         periodLabel: 'Zeitraum',
         description: "Ein Studium mit Schwerpunkt auf kritischem Denken, begründeter Analyse, ethischer Reflexion und der Untersuchung von Ideen.",
       },

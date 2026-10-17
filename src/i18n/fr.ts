@@ -234,7 +234,7 @@ export const fr: Translations = {
     sectionTitle: 'Formation',
     items: [
       {
-        title: "Master en entrepreneuriat",
+        title: "Master en entrepreneuriat et administration d'affaires",
         institution: 'IHEC: Institut de Hautes Etudes Commerciales',
         institutionLabel: 'Établissement',
         location: 'Sousse, Tunisie',
@@ -244,12 +244,12 @@ export const fr: Translations = {
         description: "Formation axée sur le management, l’analyse des besoins, la gestion d’entreprise et la structuration de projets.",
       },
       {
-        title: "Philosophie, éthique et philosophie politique",
+        title: "Licence en éthique et philosophie politique",
         institution: 'ISSHT: Institut Supèrieur de Sciences Humaines',
         institutionLabel: 'Établissement',
         location: 'Tunis, Tunisie',
         locationLabel: 'Lieu',
-        period: '2010–2013',
+        period: 'Septembre 2010–juillet 2013',
         periodLabel: 'Période',
         description: "Formation centrée sur la pensée critique, l’analyse argumentée, le questionnement éthique et l’examen des idées.",
       },

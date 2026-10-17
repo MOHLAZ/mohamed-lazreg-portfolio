@@ -234,7 +234,7 @@ export const en: Translations = {
     sectionTitle: 'Education',
     items: [
       {
-        title: "Master's in Entrepreneurship",
+        title: "Master's in Entrepreneurship and Business administration",
         institution: 'IHEC: Institut de Hautes Etudes Commerciales',
         institutionLabel: 'Institution',
         location: 'Sousse, Tunisia',
@@ -244,12 +244,12 @@ export const en: Translations = {
         description: "A program focused on management, requirements analysis, business administration, and project structuring.",
       },
       {
-        title: "Philosophy, Ethics, and Political Philosophy",
+        title: "Bachelor in Ethics, and Political Philosophy",
         institution: 'ISSHT: Institut Supérieur de Sciences Humaines',
         institutionLabel: 'Institution',
         location: 'Tunis, Tunisia',
         locationLabel: 'Location',
-        period: '2010–2013',
+        period: 'September 2010–July 2013',
         periodLabel: 'Period',
         description: "A program centered on critical thinking, reasoned analysis, ethical inquiry, and the examination of ideas.",
       },

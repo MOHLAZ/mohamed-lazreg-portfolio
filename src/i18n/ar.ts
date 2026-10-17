@@ -234,7 +234,7 @@ export const ar: Translations = {
     sectionTitle: 'التكوين',
     items: [
       {
-        title: "ماستر في ريادة الأعمال",
+        title: "ماجستر في ريادة وإدارة الأعمال",
         institution: 'IHEC: المعهد العالي للدراسات التجارية',
         institutionLabel: 'المؤسسة',
         location: 'سوسة، تونس',
@@ -244,12 +244,12 @@ export const ar: Translations = {
         description: "تكوين يركز على الإدارة وتحليل الاحتياجات وإدارة الأعمال وهيكلة المشاريع.",
       },
       {
-        title: "الفلسفة والأخلاق والفلسفة السياسية",
+        title: "الإجازة في الأخلاق والفلسفة السياسية",
         institution: 'ISSHT: المعهد العالي للعلوم الإنسانية',
         institutionLabel: 'المؤسسة',
         location: 'تونس، تونس',
         locationLabel: 'المكان',
-        period: '2010–2013',
+        period: 'سبتمبر 2010–جويلية 2013',
         periodLabel: 'الفترة',
         description: "تكوين يركز على التفكير النقدي والتحليل المُعلّل والتساؤل الأخلاقي وفحص الأفكار.",
       },
